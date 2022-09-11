@@ -173,9 +173,7 @@ namespace winforms_app_cvic3
             zivotyTextBox.Text = "YYY";
             zivotyTextBox.BackColor = zivotyTextBox.BackColor;
             zivotyTextBox.ForeColor = Color.Red;
-            var helpVar = Difficulty.level;
-            Console.WriteLine(helpVar.ToString());
-            secondsToWaitPocitani = 10 - helpVar;
+
 
             // enabled = false zamezuje uzivateli interaktovat s objekty, ke kterym nema mit pristup.
             // readme je kvuli tomu redundanti, ale nicemu nevadi.
@@ -188,7 +186,10 @@ namespace winforms_app_cvic3
             pocitaniTextBox_result.Enabled = false;
             sekvenceTextBox_result.Enabled = false;
             skoreTextBox.ReadOnly = true;
+            skoreTextBox.Enabled = false;
             zivotyTextBox.ReadOnly = true;
+            zivotyTextBox.Enabled = false;
+            
 
             symbolTextBox.Enabled = false;
            
