@@ -20,7 +20,7 @@
  V políčku za sebou problikávají různé barvy - červená, modrá, zelená. Hráč si musí pamatovat v jakém pořadí jdou za sebou a nakonci sekvenci zopakovat. Délka sekvence je rovna 2 + obtížnost. Hráč zde může ztratit život pokud zopakuje sekvenci špatně a nebo pokud mu vyprchá časový limit.
  
  
- Na konci her je skóre uloženo do .txt souboru i s informacemi o nastavení. 
+ Na konci je skóre uloženo do .txt souboru i s informacemi o nastavení. 
  
 
 
