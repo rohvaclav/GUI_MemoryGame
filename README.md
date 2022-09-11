@@ -1,2 +1,8 @@
 # GUI_MemoryGame
- pametova a multitaskingova hra pro predmet KI/GUI
+ Paměťová a multitaskingová hra pro předmět KI/GUI.
+
+
+
+
+
+

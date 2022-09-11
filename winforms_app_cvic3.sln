@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winforms_app_cvic3", "winforms_app_cvic3\winforms_app_cvic3.csproj", "{A247FD13-5285-4EE5-A144-0E65903C6737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCB397B9-7DA4-42B2-A9C2-CBEA0ABB4EE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A247FD13-5285-4EE5-A144-0E65903C6737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A247FD13-5285-4EE5-A144-0E65903C6737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A247FD13-5285-4EE5-A144-0E65903C6737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A247FD13-5285-4EE5-A144-0E65903C6737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B744CDA0-AF5C-4363-8E57-1DE715A3EA8C}
+	EndGlobalSection
+EndGlobal

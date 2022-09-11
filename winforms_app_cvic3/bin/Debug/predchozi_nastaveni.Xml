@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArrayOfXmlNastaveni xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XmlNastaveni>
+    <Obtiznost>1</Obtiznost>
+    <Hry>000</Hry>
+  </XmlNastaveni>
+</ArrayOfXmlNastaveni>
