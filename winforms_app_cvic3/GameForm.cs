@@ -173,6 +173,9 @@ namespace winforms_app_cvic3
             zivotyTextBox.Text = "YYY";
             zivotyTextBox.BackColor = zivotyTextBox.BackColor;
             zivotyTextBox.ForeColor = Color.Red;
+            var helpVar = Difficulty.level;
+            Console.WriteLine(helpVar.ToString());
+            secondsToWaitPocitani = 10 - helpVar;
 
             // enabled = false zamezuje uzivateli interaktovat s objekty, ke kterym nema mit pristup.
             // readme je kvuli tomu redundanti, ale nicemu nevadi.
@@ -260,7 +263,7 @@ namespace winforms_app_cvic3
         private void pocitaniTimer_Tick(object sender, EventArgs e)
         {
             int elapsedSeconds = (int)(DateTime.Now - startTime2).TotalSeconds;
-            int remainingSeconds = secondsToWait - elapsedSeconds;
+            int remainingSeconds = secondsToWait - Difficulty.level - elapsedSeconds;
 
             if (remainingSeconds <= 0)
             {
